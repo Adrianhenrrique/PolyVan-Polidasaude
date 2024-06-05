@@ -25,6 +25,30 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+    <style>
+      body {
+        background: var(--color-background-main);
+        box-sizing: border-box;
+        font-family: var(--font-primaria);
+        padding: 0 101px;
+        width: 100%;
+        }
+
+        @media (max-width: 1024px) {
+            body {
+                height: calc(100vh - 25px);
+                padding: 0 51px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                height: calc(100vh - 15px);
+                padding: 0 51px;
+            }
+      }
+    </style>
     <title>React App</title>
   </head>
   <body>

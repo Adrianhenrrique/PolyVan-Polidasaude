@@ -1,0 +1,124 @@
+.cabecalho {
+    align-items: center;
+    background-color: var(--color-background-main);
+    display: flex;
+    justify-content: space-around;
+    left: 0;
+    margin-bottom: 98px;
+    margin-top: 35px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.cabecalho__chat {
+    align-items: center;
+    background: var(--gradiente-buttom);
+    border-radius: 100px;
+    color: var(--color-text-button);
+    display: flex;
+    font-size: 18px;
+    gap: 8px;
+    padding: 16px 28px;
+    text-decoration: none;
+}
+
+.cabecalho__logo {
+    width: 150px;
+}
+
+.cabecalho__navegacao__items {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho__navegacao__items__item:nth-child(1) > a {
+    color: var(--color-text-primaria-select);
+    fill-opacity: 1;
+}
+
+.cabecalho__navegacao__items__item__link {
+    color: var(--color-text-primaria);
+    filter: opacity(0.8);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.cabecalho__navegacao__items__item__link:hover {
+    color: var(--color-text-primaria-select);
+    text-decoration: dashed;
+}
+
+.cabecalho__navegacao__mobile {
+    position: relative;
+}
+
+.hamburgerMenu {
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+}
+
+.hamburgerMenu .bar {
+    background-color: #000;
+    height: 3px;
+    margin: 4px 0;
+    transition: 0.4s;
+    width: 25px;
+}
+
+.navLinks {
+    display: none;
+    flex-direction: column;
+    gap: 25px;
+    left: 0;
+    list-style: none;
+    margin-top: 25px;
+    padding: 10px;
+    position: absolute;
+    left: -92vw;
+    width: 100vw;
+    background-color: #e0dfdf;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.navLinksOpen {
+    display: flex;
+}
+
+.navLinks a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--color-text-primaria);
+}
+
+.navLinks li {
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .cabecalho__chat {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        justify-content: space-between;
+        margin-bottom: 18px;
+        margin-top: 0;
+        padding: 0 40px;
+    }
+
+    .cabecalho__navegacao__items {
+        display: none;
+    }
+
+    .hamburgerMenu {
+        display: flex;
+    }
+}
