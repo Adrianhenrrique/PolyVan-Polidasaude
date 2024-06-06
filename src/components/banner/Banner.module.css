@@ -98,6 +98,10 @@
 }
 
 @media (max-width: 600px) {
+    .banner {
+        margin-top: 90px;
+    }
+
     .banner__container__titulo {
         font-size: 28px;
         line-height: 30px;
