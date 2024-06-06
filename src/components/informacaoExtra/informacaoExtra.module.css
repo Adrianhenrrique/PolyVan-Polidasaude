@@ -38,3 +38,9 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 600px) {
+    .informacaoExtra {
+        margin-top: 70px;
+    }
+}
