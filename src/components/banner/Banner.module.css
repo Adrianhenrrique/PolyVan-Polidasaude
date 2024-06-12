@@ -47,6 +47,14 @@
     width: 50%;
 }
 
+.banner__container__social__icon {
+    cursor: pointer;
+}
+
+.banner__container__social__icon:hover {
+    transform: scale(1.2);
+}
+
 @media (max-width: 1024px) {
     .banner__container__text {
         color: var(--color-text-primaria);

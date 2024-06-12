@@ -10,7 +10,7 @@ function InformacaoExtra() {
                 <li className={style.informacaoExtra__lista__item}>
                     <img className={style.informacaoExtra__lista__item__icon} src={checkImage} alt="check" />
                     <div className={style.informacaoExtra__lista__item__container}>
-                        <h2 className={style.informacaoExtra__lista__item__container__titulo}>+3 anos de experiência</h2>
+                        <h2 className={style.informacaoExtra__lista__item__container__titulo}>+10 anos de experiência</h2>
                         <p className={style.informacaoExtra__lista__item__container__text}>
                             Cuidando da sua saúde com excelência e dedicação há mais de 3 anos.
                         </p>

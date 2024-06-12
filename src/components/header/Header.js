@@ -78,7 +78,7 @@ function Header() {
                 </ul>
             </div>
         </nav>
-            <a href="#" className={style.cabecalho__chat}><img src={iconChat} alt="icone de chat" />Fale conosco agora</a>
+            <a href="https://wa.me/5511957718846?text=Oi" className={style.cabecalho__chat}><img src={iconChat} alt="icone de chat" />Fale conosco agora</a>
         </div>
     );
 }
